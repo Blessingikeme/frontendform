@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT ON HTML FORM</title>
+    <style>
+        label{
+            width: 100px;
+            display: inline-block;
+        }
+    </style
+</head>
+<body>
+
+    <form action="" method="post">
+      <fieldset>
+        <legend>Your address</legend>
+        <div>
+            <label for="First name">First name</label> 
+            <input type="text" name="First name"> 
+            <br> <br>
+        </div>
+        <div>
+            <label for="last name">Last name</label> 
+            <input type="text"> 
+            <br> <br>
+        </div>
+        <div>
+            <label for="street">Street</label>
+            <input type="text">
+            <br> <br>
+        </div>
+        <div>
+            <label for="city">City</label>
+            <input type="text">
+            <br> <br>
+        </div>
+      </fieldset>
+      <br> 
+
+
+      <fieldset>
+        <legend>Additional details</legend>
+        <div>
+            <label for="biography">Biography</label>
+            <textarea name="message" id="" cols="20" rows="5"></textarea>
+            <br> <br>
+        </div>
+        <div>
+            <label for="image">Image</label>
+            <input type="file" name="image">
+            <br> <br>
+        </div>
+        <div>
+            <label for="age group">Age group</label>
+            <select name="age group" id="age">
+                    <option value="age">0 to 9 Years</option>
+            </select>
+            <br> 
+        </div>
+      </fieldset>
+      <br> 
+
+      <fieldset>
+        <legend>Interests</legend>
+        <div>
+            <label for="hobbies">Hobbies</label>
+        <textarea name="message" id="" cols="30" rows="10">Playing soccer</textarea>
+        <br> <br>
+        
+        </div>
+        <div>
+            <label for="favorite car">Favorite car?</label>
+            <select name="favorite car" id="car">
+                <option value="car">Volvo</option>
+            </select>
+            <br> <br>
+        </div>
+        <div>
+            <label for="public transportation">Favorite public transport?</label>
+            <input type="text">
+            <optgroup label="Ground">
+                <option value="train">Train</option>
+                <option value="bus">Bus</option>
+            </optgroup>
+            <optgroup label="Water">
+
+            </optgroup>
+        </div>
+      </fieldset>
+    
+    </form>
+</body>
+</html>
